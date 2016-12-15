@@ -33,6 +33,10 @@ var formatLi = function(formater){
 
 var simpleFormater = function(ele){
 	console.log(ele);
-	
+	ele.className += " concert";
+};
+
+var makeRed = function(ele){
+	ele.style.color = "red";
 };
 
